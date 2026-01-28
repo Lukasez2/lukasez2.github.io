@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lukas - Personal Portfolio">
+    <title>Lukas | Portfolio</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="nav container">
+            <a href="#" class="nav-logo">Lukas</a>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="hero">
+            <div class="container">
+                <div class="hero-content fade-in">
+                    <p class="hero-greeting">Hi, I'm</p>
+                    <h1 class="hero-title">Lukas</h1>
+                    <p class="hero-subtitle">
+                        <!-- Customize this tagline! -->
+                        Building things & figuring it out along the way.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about section" id="about">
+            <div class="container">
+                <h2 class="section-title fade-in">About Me</h2>
+                <div class="about-content fade-in">
+                    <div class="about-text">
+                        <p>
+                            Hello! I'm Lukas. Welcome to my corner of the internet.
+                        </p>
+                        <p>
+                            <!-- Add more about yourself here -->
+                            I'm passionate about [your interests here]. Currently, I'm 
+                            [what you're doing - studying, working on, etc.].
+                        </p>
+                        <p>
+                            When I'm not coding, you can find me [hobbies/interests].
+                        </p>
+                    </div>
+                    <div class="about-skills">
+                        <h3>Skills & Technologies</h3>
+                        <ul class="skills-list">
+                            <!-- Add your skills here -->
+                            <li>HTML & CSS</li>
+                            <li>JavaScript</li>
+                            <li>Python</li>
+                            <li>Git</li>
+                            <!-- Add more skills as needed -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects section" id="projects">
+            <div class="container">
+                <h2 class="section-title fade-in">Projects</h2>
+                <p class="section-subtitle fade-in">Some things I've built</p>
+                
+                <div class="projects-grid">
+                    <!-- Project Card 1 -->
+                    <article class="project-card fade-in">
+                        <div class="project-content">
+                            <h3 class="project-title">Project Name</h3>
+                            <p class="project-description">
+                                A brief description of what this project does and what 
+                                technologies were used to build it.
+                            </p>
+                            <ul class="project-tech">
+                                <li>Tech 1</li>
+                                <li>Tech 2</li>
+                                <li>Tech 3</li>
+                            </ul>
+                            <div class="project-links">
+                                <a href="#" class="project-link" aria-label="View on GitHub">
+                                    GitHub →
+                                </a>
+                                <a href="#" class="project-link" aria-label="View live demo">
+                                    Live Demo →
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project Card 2 -->
+                    <article class="project-card fade-in">
+                        <div class="project-content">
+                            <h3 class="project-title">Another Project</h3>
+                            <p class="project-description">
+                                Description of your second project. What problem does it 
+                                solve? What did you learn building it?
+                            </p>
+                            <ul class="project-tech">
+                                <li>Tech 1</li>
+                                <li>Tech 2</li>
+                            </ul>
+                            <div class="project-links">
+                                <a href="#" class="project-link" aria-label="View on GitHub">
+                                    GitHub →
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project Card 3 (placeholder) -->
+                    <article class="project-card fade-in">
+                        <div class="project-content">
+                            <h3 class="project-title">Coming Soon</h3>
+                            <p class="project-description">
+                                More projects on the way! Check back later or visit my 
+                                GitHub to see what I'm working on.
+                            </p>
+                            <ul class="project-tech">
+                                <li>TBD</li>
+                            </ul>
+                            <div class="project-links">
+                                <a href="#" class="project-link">Stay Tuned →</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section" id="contact">
+            <div class="container">
+                <h2 class="section-title fade-in">Get In Touch</h2>
+                <div class="contact-content fade-in">
+                    <p class="contact-text">
+                        I'm always open to new opportunities, collaborations, or just a 
+                        friendly chat. Feel free to reach out!
+                    </p>
+                    <a href="mailto:your.email@example.com" class="btn btn-primary">
+                        Say Hello
+                    </a>
+                    <div class="social-links">
+                        <!-- Add your social links -->
+                        <a href="https://github.com/lukasez2" class="social-link" target="_blank" rel="noopener noreferrer">
+                            GitHub
+                        </a>
+                        <a href="https://linkedin.com/in/yourprofile" class="social-link" target="_blank" rel="noopener noreferrer">
+                            LinkedIn
+                        </a>
+                        <!-- Add more social links as needed -->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Lukas. Built with care.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
+</html>
